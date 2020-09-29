@@ -2,22 +2,22 @@
             <div class="sidebar-sticky pt-3">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../entregable/armarArchivo.php">
+                        <a class="nav-link text-white" href="../armarArchivo/armarArchivo.php">
                             Armar Archivo
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../entregable/compartirArchivo.php">
+                        <a class="nav-link text-white" href="../compartirArchivo/compartirArchivo.php">
                             Compartir Archivo
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../entregable/eliminarArchivoCompartido.php">
+                        <a class="nav-link text-white" href="../eliminarArchComp/eliminarArchivoCompartido.php">
                             Eliminar Archivo Compartido
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../entregable/eliminarArchivo.php">
+                        <a class="nav-link text-white" href="../eliminarArchivo/eliminarArchivo.php">
                             Eliminar Archivo
                         </a>
                     </li>
