@@ -6,7 +6,7 @@
     <div class="card-body">
         <div><h5> 1234.png </h5><h5>cantVeces</h></div>
     
-        <form action="upload.php" method="post">
+        <form  id="formEliminarArchivoCompartido" action="upload.php" method="post">
             <div class="form-group">
                 <label for="motivo">Motivo de que desea dejar de compartir el archivo:</label>
                 <input class="form-control" type="text" name="motivo" id="motivo">

@@ -79,6 +79,35 @@ $("#formEliminar").bootstrapValidator({
     },
   },
 });
+/* formulario Eliminar Archivo compartido */
+$("#formEliminarArchivoCompartido").bootstrapValidator({
+  message: "Este valor no es valido",
+
+  feedbackIcons: {
+    valid: "fa fa-check",
+
+    invalid: "fas fa-times",
+
+    validating: "fa fa-circle",
+  },
+
+  fields: {
+    usuario: {
+      validators: {
+        notEmpty: {
+          message: "Seleccione un usuario",
+        },
+      },
+    },
+    motivo: {
+      validators: {
+        notEmpty: {
+          message: "Escriba el motivo para dejar de compartir",
+        },
+      },
+    },
+  },
+});
 /* formulario contenido crear carpera*/
 $("#formCrearCarpeta").bootstrapValidator({
   message: "Este valor no es valido",
