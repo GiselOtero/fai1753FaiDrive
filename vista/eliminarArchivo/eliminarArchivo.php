@@ -6,7 +6,7 @@
     <div class="card-body">
         <div><h5>1234.png</h5></div>
     
-        <form action="" method="post">
+        <form id="formEliminar" action="accion.php" method="post" data-toggle="validator">
             <div class="form-group">
                 <label for="motivoElim">Motivo del que desea eliminar el archivo:</label>
                 <input class="form-control" type="text" name="motivoElim" id="motivoElim">
