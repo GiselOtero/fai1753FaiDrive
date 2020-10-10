@@ -20,11 +20,17 @@
                 box-shadow: 0 4px 10px #007bff;
                 transition: all 0.2s ease;
             }
-            a:hover {
+            .sidebar .nav-link:hover:hover {
                 text-shadow: 1px 1px 6px #fff;
                 transition: all 0.2s ease;
             }
         </style>
+        <!-- editor -->
+        
+        <script src="../js/editor/ckeditor.js"></script>
+       
+        <!-- funciones -->
+        <script src="../js/funciones/funciones.js"></script>        
 </head>
 
 <body>
@@ -40,6 +46,6 @@
             <?php include_once ("menu.php"); ?>
             <div class="col-md-9 ml-sm-auto d-md-block col-lg-10 px-md-4 h-100">
                 
-        <!--  <?php  
-        include_once ("../configuracion.php");
-        ?> -->
+         <?php  
+            include_once ("../../configuracion.php");
+        ?>

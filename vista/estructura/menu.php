@@ -21,6 +21,16 @@
                             Eliminar Archivo
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../contenido/contenido.php">
+                            Contenido
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../compartidos/compartidos.php">
+                            Compartidos
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>

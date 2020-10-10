@@ -15,7 +15,12 @@
         <script src="../js/bootstrap/4.5.2/bootstrap.min.js"></script>
         <script src="../js/popper/popper.min.js"></script>
         <!-- validacion -->
-        <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
-       <!--  <script src="../js/bootstrap/4.5.2/validator.js"></script> -->
+         <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
+        <script src="../js/bootstrap/4.5.2/validator.js"></script>
+        <!-- editor -->
+        <script src="../js/editor/ckeditor.js"></script>
+
+        
+        
     </body>
 </html>
