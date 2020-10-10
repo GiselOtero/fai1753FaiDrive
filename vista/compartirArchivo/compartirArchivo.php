@@ -10,7 +10,7 @@
         <div>
             <h6>1234.png</h6>
         </div>
-        <form action="" method="post">
+        <form action="accion.php" method="post">
             <div class="form-group">
                 <label for="cantDiaas">Ingresar la cantidad de dias que se comparte:</label>
                 <input class="form-control" type="text" name="cantDias" id="cantDias">
@@ -40,20 +40,21 @@
                 <div id="clave" style="display:none;">
                     <!-- oculto -->
                     <label for="claveProteccion">Ingresar contrase&ntilde;a:</label>
-                    <input class="form-control" type="password" name="claveProteccion" id="claveProteccion">
+                    <input class="form-control" type="password" name="claveProteccion" id="claveProteccion" onkeyup="verificarClave(this);">
+                    <div id="tipoClave">
+                    </div>
                 </div>
             </div>
             <div class="form-group">
+                <input class="btn btn-outline-primary" type="button" value="Generar Hash" name="hash" onclick="stringToHash();">
+                
                 <div>
-                    <p>Conpartir:</p>
-
+                <a href=""><span  id='mostrarHash'></span></a>
                     <!-- mostrar link generado-->
-                    <a href="#"> <?php $unLink ?> Link</a>
+                    
                 </div>
             </div>
-            <div class="form-group">
-                <input class="btn btn-outline-primary" type="button" value="Generar Hash" name="hash">
-            </div>
+            
             <!-- <div class="form-group">
                 <input class="btn btn-primary" type="submit" value="Enviar">
             </div> -->
