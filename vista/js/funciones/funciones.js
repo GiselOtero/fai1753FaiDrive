@@ -84,7 +84,8 @@ function stringToHash() {
 }
 
 function obtenerNombre() {
-  console.log("hola");
-    document.getElementById('nombreArchivo').value = document.getElementById('archivo').files[0].name;
+  //console.log("hola");
+    document.getElementById('nombreArchivo').value = document.getElementById('miArchivo').files[0].name;
+    extencion();
  
 }
